@@ -1,6 +1,12 @@
 # Story-aeneid
 
+🌐RPC cosmos:  https://Story-eaneid-testnet-rpc.validator247.com
 
+🔧API :   https://story-eaneid-testnet-api.validator247.com
+
+⚙️RPC EVM : https://story-eaneid-evm-rpc.validator247.com
+
+📡WebSocket Secure :  wss://Story-eaneid-evm-ws.validator247.com
 
 
   # install go
