@@ -65,6 +65,11 @@
     sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.story/story/config/config.toml
     sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.story/story/config/config.toml
 
+ # Download Addrbook & Genesis
+
+     wget -O ~/.story/config/addrbook.json https://raw.githubusercontent.com/Validator247/Story-aeneid/main/addrbook.json
+     wget -O ~/.story/config/genesis.json https://raw.githubusercontent.com/Validator247/Story-aeneid/main/genesis.json
+
 # create geth servie file
     sudo tee /etc/systemd/system/story-geth.service > /dev/null <<EOF
     [Unit]
