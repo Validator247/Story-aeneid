@@ -6,7 +6,8 @@
 
 ⚙️RPC EVM : https://story-eaneid-evm-rpc.validator247.com
 
-📡WebSocket Secure :  wss://Story-eaneid-evm-ws.validator247.com
+📡 WebSocket Secure: [wss://story-eaneid-evm-ws.validator247.com](wss://story-eaneid-evm-ws.validator247.com)
+
 
 
   # install go
